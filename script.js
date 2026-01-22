@@ -16,6 +16,7 @@ const DATA = {
     gallery: [
         { cap: "Ride's at Montalban Rizal", date: "January 22, 2026", img: "img/rides_montalban.mp4" },
         { cap: "Long ride short on gas (nick) 😂", date: "January 22, 2026", img: "img/gas_checked.mp4" },
+        { cap: "Montalban Rizal ♥", date: "January 22, 2026", img: "img/montalban_rizal.mp4git " },
         { cap: "Montalban Selfie 2", date: "January 22, 2026", img: "img/montalban_selfie2.jpg" },
         { cap: "Montalban Selfie 1", date: "January 22, 2026", img: "img/montalban_selfie1.jpg" },
         { cap: "Foodtrip at Montalban Rizal", date: "January 22, 2026", img: "img/montalban.jpg" },
