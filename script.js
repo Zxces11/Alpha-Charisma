@@ -137,7 +137,7 @@ function openLightbox(file, title, sub) {
     document.getElementById('lightbox-title').innerText = title;
     document.getElementById('lightbox-sub').innerText = sub;
     
-    const lightboxModal = document.getgElementById('lightboxModal');
+    const lightboxModal = document.getElementById('lightboxModal');
     const modal = new bootstrap.Modal(lightboxModal);
     modal.show();
 }
