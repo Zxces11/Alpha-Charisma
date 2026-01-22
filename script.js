@@ -14,12 +14,12 @@ const DATA = {
         { name: "Joshua Roca", role: "The Loverboy of Charismatic", img: "img/josh.jpg" }
     ],
     gallery: [
-        { cap: "Ride's at Montalban Rizal", date: "January 22, 2026", img: "img/rides_montalban.mp4" },
-        { cap: "Long ride short on gas (nick) 😂", date: "January 22, 2026", img: "img/gas_checked.mp4" },
-        { cap: "Montalban Rizal ♥", date: "January 22, 2026", img: "img/montalban_rizal.mp4git " },
-        { cap: "Montalban Selfie 2", date: "January 22, 2026", img: "img/montalban_selfie2.jpg" },
-        { cap: "Montalban Selfie 1", date: "January 22, 2026", img: "img/montalban_selfie1.jpg" },
-        { cap: "Foodtrip at Montalban Rizal", date: "January 22, 2026", img: "img/montalban.jpg" },
+        { cap: "Ride's at Montalban Rizal", date: "January 22, 2026", img: "img/montalban_rizal/rides_montalban.mp4" },
+        { cap: "Long ride short on gas (nick) 😂", date: "January 22, 2026", img: "img/montalban_rizal/gas_checked.mp4" },
+        { cap: "Montalban Rizal ♥", date: "January 22, 2026", img: "img/montalban_rizal/montalban_rizal.mp4" },
+        { cap: "Montalban Selfie 2", date: "January 22, 2026", img: "img/montalban_rizal/montalban_selfie2.jpg" },
+        { cap: "Montalban Selfie 1", date: "January 22, 2026", img: "img/montalban_rizal/montalban_selfie1.jpg" },
+        { cap: "Foodtrip at Montalban Rizal", date: "January 22, 2026", img: "img/montalban_rizal/montalban.jpg" },
         { cap: "John Paul Brother Funeral", date: "Jan 2024", img: "img/lamay.jpg" },
         { cap: "Jobert's Wedding", date: "Feb 2024", img: "img/wedding.jpg" },
         { cap: "Night Eat Pares", date: "Mar 2024", img: "img/pares.jpg" },
@@ -137,7 +137,7 @@ function openLightbox(file, title, sub) {
     document.getElementById('lightbox-title').innerText = title;
     document.getElementById('lightbox-sub').innerText = sub;
     
-    const lightboxModal = document.getElementById('lightboxModal');
+    const lightboxModal = document.getgElementById('lightboxModal');
     const modal = new bootstrap.Modal(lightboxModal);
     modal.show();
 }
